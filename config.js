@@ -18,7 +18,8 @@ const CONFIG = {
 
 	// Background
     randomBackground: true,
-    unsplashQuery: 'nature,landscape',
+    unsplashKey: 'ofyz0g3IiYkGyx-bi0zHUFAGE-IADWpAfpBKnO6pP1w',
+    unsplashQuery: 'nature',
 
 	// Greetings
 	greetingMorning: 'Good morning!',

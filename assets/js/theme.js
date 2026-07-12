@@ -35,6 +35,12 @@ themeToggle.addEventListener('click', () => {
 });
 
 if (CONFIG.imageBackground) {
+
+	if (CONFIG.randomBackground) {
+		const imageUrl = `https://source.unsplash.com/1920x1080/?${CONFIG.unsplashQuery}&${Date.now()}`;
+		document.documentElement.style.setProperty('--imgbg', `url(${imageUrl})`);
+	}
+
 	document.body.classList.add('withImageBackground');
 }
 

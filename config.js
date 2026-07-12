@@ -59,8 +59,8 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
+			name: 'X',
+			icon: 'x-logo-49788',
 			link: 'https://mail.protonmail.com/',
 		},
 		{

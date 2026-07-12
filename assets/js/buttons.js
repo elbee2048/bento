@@ -11,7 +11,7 @@ const generateFirstButtonsContainer = () => {
           target="${CONFIG.openInNewTab ? '_blank' : ''}"
           class="card button button__${button.id}"
         >
-          <i class="buttonIcon ${button.icon}"></i>
+          <img class="buttonIcon" src="assets/icons/${button.icon}.png">
         </a>
     `;
 

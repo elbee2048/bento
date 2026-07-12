@@ -37,8 +37,16 @@ themeToggle.addEventListener('click', () => {
 if (CONFIG.imageBackground) {
 
 	if (CONFIG.randomBackground) {
-		const imageUrl = `https://source.unsplash.com/1920x1080/?${CONFIG.unsplashQuery}&${Date.now()}`;
-		document.documentElement.style.setProperty('--imgbg', `url(${imageUrl})`);
+		fetch(
+			`https://api.unsplash.com/photos/random?query=${CONFIG.unsplashQuery}&orientation=landscape&client_id=${CONFIG.unsplashKey}`
+		)
+		.then(response => response.json())
+		.then(data => {
+			document.documentElement.style.setProperty(
+				'--imgbg',
+				`url(${data.urls.full})`
+			);
+		});
 	}
 
 	document.body.classList.add('withImageBackground');

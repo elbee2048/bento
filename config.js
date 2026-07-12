@@ -54,7 +54,7 @@ const CONFIG = {
 		{
 			id: '1',
 			name: 'YouTube',
-			icon: 'funnel',
+			icon: 'fa-youtube',
 			link: 'https://github.com/',
 		},
 		{

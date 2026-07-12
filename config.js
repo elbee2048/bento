@@ -16,6 +16,10 @@ const CONFIG = {
 	openInNewTab: false,
 	twelveHourFormat: true,
 
+	// Background
+    randomBackground: true,
+    unsplashQuery: 'nature,landscape',
+
 	// Greetings
 	greetingMorning: 'Good morning!',
 	greetingAfternoon: 'Good afternoon,',

@@ -53,8 +53,8 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
+			name: 'YouTube',
+			icon: '<i class="fa-brands fa-youtube"></i>',
 			link: 'https://github.com/',
 		},
 		{

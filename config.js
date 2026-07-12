@@ -54,7 +54,7 @@ const CONFIG = {
 		{
 			id: '1',
 			name: 'YouTube',
-			icon: 'file:///C:/Users/digit/Downloads/youtube-svgrepo-com.svg',
+			icon: 'funnel',
 			link: 'https://github.com/',
 		},
 		{
